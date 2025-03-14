@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
 @import "tailwindcss";
 
 @theme{
   --color-primary: #18AF6B;
   --color-secondprimary: #086E40;
+}
+*{
+  font-family: Outfit;
+}
+
+@layer components {
+  .grid-auto-cols {
+   
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  }
 }
 
 .active hr{
