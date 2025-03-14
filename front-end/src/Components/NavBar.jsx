@@ -11,9 +11,13 @@ const NavBar = () => {
 
   return (
     <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
-      <NavLink to="/">
-        <img className="w-35 cursor-pointer lg:w-44" src={logo} alt="logo" />
-      </NavLink>
+      <img
+        onClick={() => navigate("/")}
+        className="w-35 cursor-pointer lg:w-44"
+        src={logo}
+        alt="logo"
+      />
+
       <ul className="hidden md:flex items-start gap-5 font-medium">
         {" "}
         {/*hidden in phone view */}
