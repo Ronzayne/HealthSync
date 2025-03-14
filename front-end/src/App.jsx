@@ -9,6 +9,7 @@ import MyAppointment from "./Pages/MyAppointment";
 import Pharmacies from "./Pages/Pharmacies";
 import NavBar from "./Components/NavBar";
 import CreateAccount from "./Pages/CreateAccount";
+import HealthChat from "./Components/HealthChat";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/my-appointments" element={<MyAppointment />} />
         <Route path="/pharmacies" element={<Pharmacies />} />
         <Route path="/appointment/:docId" element={<MyAppointment />} />
+        <Route path="/healthchat" element={<HealthChat />} />
         <Route path="/messages" element={<Pharmacies />} />
       </Routes>
     </div>
