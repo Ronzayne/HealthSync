@@ -7,7 +7,10 @@ const Healthquery = () => {
         Health Queries? Interact with our health assistant bot for easy and
         quick diagnosis
       </p>
-      <a className="bg-primary px-5 py-3 text-white text-2xl rounded" href="">
+      <a
+        className="bg-primary px-5 py-3 text-white text-2xl rounded"
+        href="healthchat"
+      >
         chat now
       </a>
     </div>
