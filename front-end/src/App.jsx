@@ -10,6 +10,7 @@ import Pharmacies from "./Pages/Pharmacies";
 import NavBar from "./Components/NavBar";
 import CreateAccount from "./Pages/CreateAccount";
 import HealthChat from "./Components/HealthChat";
+import Appointments from "./Pages/Appointments";
 
 const App = () => {
   return (
@@ -25,8 +26,9 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/my-profile" element={<MyProfile />} />
         <Route path="/my-appointments" element={<MyAppointment />} />
+        <Route path="/appointments" element={<Appointments />} />
         <Route path="/pharmacies" element={<Pharmacies />} />
-        <Route path="/appointment/:docId" element={<MyAppointment />} />
+        <Route path="/appointments/:docId" element={<Appointments />} />
         <Route path="/healthchat" element={<HealthChat />} />
         <Route path="/messages" element={<Pharmacies />} />
       </Routes>
