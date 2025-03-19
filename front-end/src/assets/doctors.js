@@ -21,7 +21,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Emmanuel has a strong commitment to delivering comprehensice medical care",
+      "Dr. Emmanuel has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -36,7 +36,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Nana Osei has a strong commitment to delivering comprehensice medical care",
+      "Dr. Nana Osei has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -51,7 +51,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Dennis Agyekum has a strong commitment to delivering comprehensice medical care",
+      "Dr. Dennis Agyekum has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -66,7 +66,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Broni Kwakwa has a strong commitment to delivering comprehensice medical care",
+      "Dr. Broni Kwakwa has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -81,7 +81,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Emmanuel has a strong commitment to delivering comprehensice medical care",
+      "Dr. Emmanuel has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -96,7 +96,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Nana Osei has a strong commitment to delivering comprehensice medical care",
+      "Dr. Nana Osei has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -111,7 +111,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Kankam Kwaku has a strong commitment to delivering comprehensice medical care",
+      "Dr. Kankam Kwaku has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -126,7 +126,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Emmanuel has a strong commitment to delivering comprehensice medical care",
+      "Dr. Emmanuel has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -141,7 +141,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Nana Osei has a strong commitment to delivering comprehensice medical care",
+      "Dr. Nana Osei has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -156,7 +156,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Emmanuel has a strong commitment to delivering comprehensice medical care",
+      "Dr. Emmanuel has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -171,7 +171,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Nana Osei has a strong commitment to delivering comprehensice medical care",
+      "Dr. Nana Osei has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -186,7 +186,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Emmanuel has a strong commitment to delivering comprehensice medical care",
+      "Dr. Emmanuel has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -201,7 +201,7 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Emmanuel has a strong commitment to delivering comprehensice medical care",
+      "Dr. Emmanuel has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
