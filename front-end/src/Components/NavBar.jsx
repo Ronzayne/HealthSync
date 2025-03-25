@@ -4,12 +4,18 @@ import profile_pic from "../assets/profile_pic.png";
 import drop_down_icon from "../assets/dropdown_icon.png";
 import crossIcon from "../assets/crossIcon.png";
 import menuBar from "../assets/menubar.png";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { AppContext } from "../Context/AppContext";
 const NavBar = () => {
   const navigate = useNavigate();
+  const { token, setToken, userData } = useContext(AppContext);
 
   const [showMenu, setShowMenu] = useState(false);
-  const [token, setToken] = useState(true); // having token means logged in else logged out
+
+  const logout = () => {
+    setToken(false);
+    localStorage.removeItem("token");
+  };
 
   return (
     <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
@@ -49,11 +55,11 @@ const NavBar = () => {
         </NavLink>
       </ul>
       <div className="flex gap-1.5">
-        {token ? (
+        {token && userData ? (
           <div className="flex items-center gap-2 cursor-pointer group relative">
             <img
               className="w-8 rounded-full"
-              src={profile_pic}
+              src={userData.image}
               alt="Profile pic"
             />
 
@@ -67,7 +73,7 @@ const NavBar = () => {
                   My Profile
                 </p>
                 <p
-                  onClick={() => setToken(false)}
+                  onClick={logout}
                   className="hover:bg-gray-300 cursor-pointer"
                 >
                   Logout
@@ -91,7 +97,7 @@ const NavBar = () => {
           src={menuBar}
           alt=""
         />
-        {/* monile menu */}
+        {/* mobile menu */}
         <div
           className={`${
             showMenu ? "fixed w-full" : "h-0 w-0"
