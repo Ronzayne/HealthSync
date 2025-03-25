@@ -75,13 +75,13 @@ export const doctors = [
   },
   {
     _id: "doc5",
-    name: "Dr. Emmanuel Acquah",
+    name: "Dr. Mary",
     image: doc5,
     speciality: "Dermatologist",
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Emmanuel has a strong commitment to delivering comprehensive medical care",
+      "Dr. Mary has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -90,13 +90,13 @@ export const doctors = [
   },
   {
     _id: "doc6",
-    name: "Dr. Nana Osei",
+    name: "Dr. Kwame Osei",
     image: doc6,
     speciality: "Pediatricians",
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Nana Osei has a strong commitment to delivering comprehensive medical care",
+      "Dr. Kwame Osei has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -120,13 +120,13 @@ export const doctors = [
   },
   {
     _id: "doc8",
-    name: "Dr. Emmanuel Acquah",
+    name: "Dr. Stephen",
     image: doc8,
     speciality: "General physician",
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Emmanuel has a strong commitment to delivering comprehensive medical care",
+      "Dr. Stephen has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -135,13 +135,13 @@ export const doctors = [
   },
   {
     _id: "doc9",
-    name: "Dr. Nana Osei",
+    name: "Dr. Charlotte",
     image: doc9,
     speciality: "Neurologist",
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Nana Osei has a strong commitment to delivering comprehensive medical care",
+      "Dr. Charlotte has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -150,13 +150,13 @@ export const doctors = [
   },
   {
     _id: "doc10",
-    name: "Dr. Emmanuel Acquah",
+    name: "Dr. Beatrice",
     image: doc10,
     speciality: "Pediatricians",
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Emmanuel has a strong commitment to delivering comprehensive medical care",
+      "Dr. Beatrice has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -165,7 +165,7 @@ export const doctors = [
   },
   {
     _id: "doc11",
-    name: "Dr. Nana Osei",
+    name: "Dr. Kenneth",
     image: doc11,
     speciality: "Urologist",
     degree: "MBBS",
@@ -180,13 +180,13 @@ export const doctors = [
   },
   {
     _id: "doc12",
-    name: "Dr. Emmanuel Acquah",
+    name: "Dr. Henry",
     image: doc12,
     speciality: "Gastroenterologist",
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Emmanuel has a strong commitment to delivering comprehensive medical care",
+      "Dr. Henry has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
@@ -195,13 +195,13 @@ export const doctors = [
   },
   {
     _id: "doc13",
-    name: "Dr. Emmanuel Acquah",
+    name: "Dr. Jedidiah",
     image: doc13,
     speciality: "General physician",
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Emmanuel has a strong commitment to delivering comprehensive medical care",
+      "Dr. Jedidiah has a strong commitment to delivering comprehensive medical care",
     fees: 60,
     address: {
       line1: "Ofankor North",
