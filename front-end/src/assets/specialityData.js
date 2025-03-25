@@ -8,7 +8,7 @@ import gastroenterologist from "./Gastroenterologist.png";
 export const specialityData = [
   {
     image: general_physician,
-    speciality: "General physician",
+    speciality: "General Physician",
   },
   {
     image: gynecologist,
