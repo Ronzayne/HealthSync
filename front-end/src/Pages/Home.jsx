@@ -1,6 +1,6 @@
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
-import Healthquery from "../Components/healthquery";
+import Healthquery from "../Components/Healthquery";
 import SpecialityMenu from "../Components/SpecialityMenu";
 
 const Home = () => {
